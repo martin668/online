@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=640,user-scalable=no">
+    <title></title>
+  <link rel="stylesheet" type="text/css" href="../bs/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/reset.css">
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  </head>
+  <body>
+  	<article class="position">
+        <header>
+           <h5>当前位置</h5>
+           <p>上海</p>
+        </header>  
+        <section>
+           <h5 id="a">A</h5>
+           <ul>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           </ul>
+        </section>  
+        <section>
+           <h5 id="b">B</h5>
+           <ul>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           	<li>安吉市</li>
+           </ul>
+        </section> 
+    </article>
+       <aside class="link">
+          <ul>
+          	<li><a href="#a">A</a></li>
+          	<li><a href="#b">B</a></li>
+          	<li><a href="#c">C</a></li>
+          	<li><a href="#d">D</a></li>
+          	<li><a href="#e">E</a></li>
+          	<li><a href="#f">F</a></li>
+          </ul>
+       </aside> 
+    <script src="../bs/js/jquery-1.11.2.min.js"></script>
+    <script src="../bs/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+	var $h=$(window).height();
+    $('.position >section:last-child').css({'min-height':$h});
+    </script>
+  </body>
+</html>
